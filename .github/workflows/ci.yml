@@ -47,3 +47,5 @@ jobs:
           test-enable-release-testing: ${{ matrix.release-test }}
           test-enable-coverage: ${{ matrix.coverage }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
+      - run: 'perl -Mblib t/t9.t'
+        if: always()
