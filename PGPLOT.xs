@@ -587,7 +587,7 @@ pglabel(xlbl,ylbl,toplbl)
 void
 pglcur(maxpt,npt,x,y)
   int	maxpt
-  int	npt = NO_INIT
+  int	npt
   float *	x = NO_INIT
   float *	y = NO_INIT
   CODE:
@@ -670,7 +670,7 @@ pgmtext(side,disp,coord,fjust,text)
 void
 pgncur(maxpt,npt,x,y,symbol)
   int	maxpt
-  int	npt = NO_INIT
+  int	npt
   float *	x = NO_INIT
   float *	y = NO_INIT
   int	symbol
@@ -690,7 +690,7 @@ pgncur(maxpt,npt,x,y,symbol)
 void
 pgncurse(maxpt,npt,x,y,symbol)
   int	maxpt
-  int	npt = NO_INIT
+  int	npt
   float *	x = NO_INIT
   float *	y = NO_INIT
   int	symbol
@@ -727,7 +727,7 @@ pgnumb(mm,pp,form,string,nc)
 void
 pgolin(maxpt,npt,x,y,symbol)
   int	maxpt
-  int	npt = NO_INIT
+  int	npt
   float *	x = NO_INIT
   float *	y = NO_INIT
   int	symbol
