@@ -1,3 +1,4 @@
+2.36 2026-08-09
 - remove NO_INIT from the in/out NPT argument of pglcur, pgncur, pgncurse
   and pgolin so the documented "should be zero on first call" input value
   is honoured again (#20) - regression introduced in 2.28
