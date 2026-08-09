@@ -118,8 +118,8 @@ pgband(mode,posn,xref,yref,x,y,ch)
   int	posn
   float	xref
   float	yref
-  float	x = NO_INIT
-  float	y = NO_INIT
+  float	x
+  float	y
   char	ch = NO_INIT
   CODE:
     DEBUG_PRINT(pgband);
@@ -325,8 +325,8 @@ pgctab(l,r,g,b,nc,contra,bright)
 
 int
 pgcurs(x,y,ch)
-  float	x = NO_INIT
-  float	y = NO_INIT
+  float	x
+  float	y
   char	ch = NO_INIT
   CODE:
     DEBUG_PRINT(pgcurs);
@@ -340,8 +340,8 @@ pgcurs(x,y,ch)
 
 int
 pgcurse(x,y,ch)
-  float	x = NO_INIT
-  float	y = NO_INIT
+  float	x
+  float	y
   char	ch = NO_INIT
   CODE:
     DEBUG_PRINT(pgcurse);
