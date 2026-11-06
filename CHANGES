@@ -1,3 +1,4 @@
+2.37 2026-11-06
 - fix C declarations to match Giza's correct `const` practice (#21) - thanks @sebastic for report
 
 2.36 2026-08-09
